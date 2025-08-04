@@ -20,7 +20,7 @@
 
 ```ini
 [Rule]
-RULE-SET,[AdRules](https://raw.githubusercontent.com/githubacct001/adrules/refs/heads/main/merged-ruleset.list),REJECT
+RULE-SET,https://raw.githubusercontent.com/githubacct001/adrules/refs/heads/main/merged-ruleset.list,REJECT
 ```
 
 ---
