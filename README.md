@@ -42,8 +42,9 @@ RULE-SET,https://raw.githubusercontent.com/githubacct001/adrules/refs/heads/main
 当前合并的 rule-set 源地址如下：
 
 ```text
-https://raw.githubusercontent.com/cats-team/AdRules/main/adrules.list
-https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/dist/surge-rule.txt
+  https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list
+  https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
+  https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
 ```
 
 你可以在 `scripts/merge.sh` 中修改或添加更多规则。
@@ -72,6 +73,7 @@ bash scripts/merge.sh
 
 - [cats-team / AdRules](https://github.com/cats-team/AdRules)
 - [秋风去广告](https://github.com/TG-Twilight/AWAvenue-Adblock-Rule)
+- [anti-AD](https://github.com/privacy-protection-tools/anti-AD)
 - Surge 用户社区
 
 ---
