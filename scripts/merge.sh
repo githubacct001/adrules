@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export TZ=Asia/Shanghai  # 设置为北京时间
+
 urls=(
   "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
@@ -24,7 +26,7 @@ rule_count=$(echo "$cleaned" | wc -l)
 
 {
   echo "# Merged RuleSet for Surge"
-  echo "# Generated on $(date '+%Y-%m-%d %H:%M:%S')"
+  echo "# Generated on $(date '+%Y-%m-%d %H:%M:%S') (Asia/Shanghai)"
   echo "# Total Rules: $rule_count"
   echo "# Source URLs:"
   for url in "${urls[@]}"; do
@@ -36,5 +38,4 @@ rule_count=$(echo "$cleaned" | wc -l)
 
 rm "$tmp_file"
 
-echo "完成！规则数：$rule_count"
-echo "输出文件：$output_file"
+echo "✅ 合并完成！生成文件：$output_file，总规则数：$rule_count"
