@@ -5,6 +5,7 @@ export TZ=Asia/Shanghai  # 设置为北京时间
 urls=(
   "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
+  "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 )
 
 tmp_file=$(mktemp)
