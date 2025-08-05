@@ -1,4 +1,5 @@
 # 一些错误屏蔽域名
 DOMAIN-SUFFIX,bootcdn.cn
 DOMAIN-SUFFIX,bootcdn.net
-DOMAIN-SUFFIX,analytics.meituan.net // 美团
+# 美团
+DOMAIN-SUFFIX,analytics.meituan.net
