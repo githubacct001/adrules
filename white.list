@@ -1,2 +1,3 @@
 # 一些错误屏蔽域名
-DOMAIN,cdn.bootcdn.net
+DOMAIN-SUFFIX,bootcdn.cn
+DOMAIN-SUFFIX,bootcdn.net
