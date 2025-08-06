@@ -39,13 +39,7 @@ for ex_url in "${exclude_urls[@]}"; do
   curl -s "$ex_url" >> "$exclude_tmp"
 done
 
-# exclude_rules=$(grep -vE '^(#|//|$)' "$exclude_tmp" | sort -u)
-
-exclude_rules=$(cat "$exclude_tmp" | \
-  grep -vE '^(#|//|$)' | \              # 去除注释行和空行
-  sed 's/^[ \t]*//;s/[ \t]*$//' | \     # 去除首尾空格
-  tr -d '\r' | \                        # 去除 CR 字符（Windows CRLF 兼容）
-  sort -u)
+exclude_rules=$(grep -vE '^(#|//|$)' "$exclude_tmp" | sort -u)
 
 # 去除白名单规则
 echo "🚮 执行白名单过滤..."
