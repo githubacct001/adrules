@@ -3,3 +3,5 @@ DOMAIN-SUFFIX,bootcdn.cn
 DOMAIN-SUFFIX,bootcdn.net
 # 美团
 DOMAIN-SUFFIX,analytics.meituan.net
+# 以图搜图搜索工具
+DOMAIN-SUFFIX,smallseotools.com
